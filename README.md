@@ -24,7 +24,7 @@ Red-uniform assets are in the repository root. The corresponding white-dress fil
 - `manifest.json`: 8 columns × 11 rows; each cell is 192 × 208 pixels.
 - `preview.gif`: animation preview.
 - `look-preview.gif`: sixteen-direction look preview.
-- `reference.png`: original full-body design reference, with its blue generation background.
+- `reference.png`: original full-body design reference, with its generation background.
 - `PROMPTS.md`: reference and animation-row generation prompts.
 - `SHA256SUMS.txt`: SHA-256 checksums for the included files.
 
