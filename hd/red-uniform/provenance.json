@@ -1,0 +1,753 @@
+{
+  "version": "1.2.0",
+  "edition": "HD2x",
+  "variant": "B",
+  "original_atlas_upscaled": false,
+  "source_upscaling_allowed": false,
+  "chroma_key": "#0000FF",
+  "chroma_threshold": 96.0,
+  "edge_cleanup": {
+    "algorithm": "edge-local-chroma-spill-suppression",
+    "radius": 10,
+    "alpha_preserved": true
+  },
+  "pipeline_helpers": {
+    "extract_strip_frames": "af2cfea385189df30674c91f4658a49e5b51e58471057fbca0b3319cf932c75e",
+    "assemble_extended_atlas": "a8684c22e9409f1add388688218c8fa7e267b88b91fcb3edc3280dc87ebf1c3e",
+    "despill_chroma_edges": "dc93a5e752f4100e55010205462a8e7272bac451ee7e29b525abd6157a7fe309"
+  },
+  "rows": [
+    {
+      "row": 0,
+      "state": "idle",
+      "frame_count": 6,
+      "source": "B/decoded/idle.png",
+      "sha256": "4d69d3a9bc96511664a12dceb810ca02372a29de729dd9f1b532f19fa4e15e7e",
+      "source_dimensions": [
+        2172,
+        724
+      ],
+      "source_pose_bounds": [
+        [
+          12,
+          71,
+          330,
+          668
+        ],
+        [
+          373,
+          70,
+          696,
+          668
+        ],
+        [
+          736,
+          72,
+          1055,
+          668
+        ],
+        [
+          1094,
+          71,
+          1416,
+          668
+        ],
+        [
+          1452,
+          70,
+          1772,
+          668
+        ],
+        [
+          1818,
+          71,
+          2137,
+          668
+        ]
+      ],
+      "transform": {
+        "source_viewport": [
+          331,
+          606
+        ],
+        "source_shared_top": 66,
+        "source_shared_bottom": 672,
+        "scale": 0.6534653465346535,
+        "destination_viewport": [
+          216,
+          396
+        ],
+        "source_upscaled": false,
+        "registration": "shared row viewport; original vertical displacement preserved"
+      }
+    },
+    {
+      "row": 1,
+      "state": "running-right",
+      "frame_count": 8,
+      "source": "B/decoded/running-right.png",
+      "sha256": "9811ddbc012315e49f337ac2d4fae61a1df1daa64f0f244620a9182be4e47b13",
+      "source_dimensions": [
+        2172,
+        724
+      ],
+      "source_pose_bounds": [
+        [
+          12,
+          182,
+          274,
+          559
+        ],
+        [
+          278,
+          186,
+          536,
+          559
+        ],
+        [
+          544,
+          185,
+          804,
+          559
+        ],
+        [
+          813,
+          175,
+          1064,
+          541
+        ],
+        [
+          1080,
+          185,
+          1358,
+          559
+        ],
+        [
+          1358,
+          185,
+          1617,
+          559
+        ],
+        [
+          1626,
+          185,
+          1886,
+          559
+        ],
+        [
+          1895,
+          174,
+          2146,
+          540
+        ]
+      ],
+      "transform": {
+        "source_viewport": [
+          286,
+          393
+        ],
+        "source_shared_top": 170,
+        "source_shared_bottom": 563,
+        "scale": 1.0,
+        "destination_viewport": [
+          286,
+          393
+        ],
+        "source_upscaled": false,
+        "registration": "shared row viewport; original vertical displacement preserved"
+      }
+    },
+    {
+      "row": 2,
+      "state": "running-left",
+      "frame_count": 8,
+      "source": "B/decoded/running-left.png",
+      "sha256": "1ec0e41a371b43df939d6cdc69769ae5f62e30974be0abfde7b72fa899e851f9",
+      "source_dimensions": [
+        2172,
+        724
+      ],
+      "source_pose_bounds": [
+        [
+          30,
+          176,
+          286,
+          551
+        ],
+        [
+          288,
+          177,
+          547,
+          560
+        ],
+        [
+          557,
+          177,
+          808,
+          561
+        ],
+        [
+          814,
+          172,
+          1076,
+          542
+        ],
+        [
+          1091,
+          176,
+          1355,
+          552
+        ],
+        [
+          1366,
+          177,
+          1623,
+          560
+        ],
+        [
+          1636,
+          178,
+          1885,
+          565
+        ],
+        [
+          1896,
+          172,
+          2154,
+          543
+        ]
+      ],
+      "transform": {
+        "source_viewport": [
+          272,
+          401
+        ],
+        "source_shared_top": 168,
+        "source_shared_bottom": 569,
+        "scale": 0.9875311720698254,
+        "destination_viewport": [
+          269,
+          396
+        ],
+        "source_upscaled": false,
+        "registration": "shared row viewport; original vertical displacement preserved"
+      }
+    },
+    {
+      "row": 3,
+      "state": "waving",
+      "frame_count": 4,
+      "source": "B/decoded/waving.png",
+      "sha256": "f104c564c62c6a229fc15fc140989d3c7690b1a2858301e77f53d92422f142bb",
+      "source_dimensions": [
+        2170,
+        725
+      ],
+      "source_pose_bounds": [
+        [
+          99,
+          36,
+          459,
+          699
+        ],
+        [
+          613,
+          35,
+          975,
+          699
+        ],
+        [
+          1127,
+          35,
+          1497,
+          699
+        ],
+        [
+          1675,
+          35,
+          2031,
+          699
+        ]
+      ],
+      "transform": {
+        "source_viewport": [
+          378,
+          672
+        ],
+        "source_shared_top": 31,
+        "source_shared_bottom": 703,
+        "scale": 0.5892857142857143,
+        "destination_viewport": [
+          223,
+          396
+        ],
+        "source_upscaled": false,
+        "registration": "shared row viewport; original vertical displacement preserved"
+      }
+    },
+    {
+      "row": 4,
+      "state": "jumping",
+      "frame_count": 5,
+      "source": "B/decoded/jumping.png",
+      "sha256": "627442c611d8e8f32e5dbd267545f4452ba00f431fed92779c39e8fe3d8de395",
+      "source_dimensions": [
+        2170,
+        725
+      ],
+      "source_pose_bounds": [
+        [
+          23,
+          198,
+          392,
+          669
+        ],
+        [
+          431,
+          130,
+          823,
+          627
+        ],
+        [
+          861,
+          76,
+          1262,
+          574
+        ],
+        [
+          1277,
+          138,
+          1686,
+          635
+        ],
+        [
+          1732,
+          201,
+          2116,
+          669
+        ]
+      ],
+      "transform": {
+        "source_viewport": [
+          417,
+          601
+        ],
+        "source_shared_top": 72,
+        "source_shared_bottom": 673,
+        "scale": 0.6589018302828619,
+        "destination_viewport": [
+          275,
+          396
+        ],
+        "source_upscaled": false,
+        "registration": "shared row viewport; original vertical displacement preserved"
+      }
+    },
+    {
+      "row": 5,
+      "state": "failed",
+      "frame_count": 8,
+      "source": "B/decoded/failed.png",
+      "sha256": "73cf14481697f8fbb1e737b7102955c68edb1deddc88845bb4a350bdd7737d61",
+      "source_dimensions": [
+        2172,
+        724
+      ],
+      "source_pose_bounds": [
+        [
+          9,
+          161,
+          259,
+          635
+        ],
+        [
+          279,
+          164,
+          530,
+          635
+        ],
+        [
+          549,
+          172,
+          814,
+          635
+        ],
+        [
+          822,
+          188,
+          1091,
+          635
+        ],
+        [
+          1088,
+          176,
+          1362,
+          635
+        ],
+        [
+          1357,
+          164,
+          1606,
+          635
+        ],
+        [
+          1623,
+          161,
+          1867,
+          635
+        ],
+        [
+          1895,
+          161,
+          2144,
+          635
+        ]
+      ],
+      "transform": {
+        "source_viewport": [
+          282,
+          482
+        ],
+        "source_shared_top": 157,
+        "source_shared_bottom": 639,
+        "scale": 0.8215767634854771,
+        "destination_viewport": [
+          232,
+          396
+        ],
+        "source_upscaled": false,
+        "registration": "shared row viewport; original vertical displacement preserved"
+      }
+    },
+    {
+      "row": 6,
+      "state": "waiting",
+      "frame_count": 6,
+      "source": "B/decoded/waiting.png",
+      "sha256": "dc2c56319639425fa18469fb0dbcb09ed0077890a14fde54259e074e09bd3acb",
+      "source_dimensions": [
+        2172,
+        724
+      ],
+      "source_pose_bounds": [
+        [
+          15,
+          66,
+          316,
+          671
+        ],
+        [
+          379,
+          66,
+          695,
+          671
+        ],
+        [
+          741,
+          65,
+          1055,
+          671
+        ],
+        [
+          1099,
+          66,
+          1403,
+          671
+        ],
+        [
+          1464,
+          66,
+          1767,
+          671
+        ],
+        [
+          1834,
+          66,
+          2137,
+          671
+        ]
+      ],
+      "transform": {
+        "source_viewport": [
+          324,
+          614
+        ],
+        "source_shared_top": 61,
+        "source_shared_bottom": 675,
+        "scale": 0.6449511400651465,
+        "destination_viewport": [
+          209,
+          396
+        ],
+        "source_upscaled": false,
+        "registration": "shared row viewport; original vertical displacement preserved"
+      }
+    },
+    {
+      "row": 7,
+      "state": "running",
+      "frame_count": 6,
+      "source": "B/decoded/running.png",
+      "sha256": "5d7c1ac01116fc2634a603f827e8bc239f3d023b855d384833da490be580db10",
+      "source_dimensions": [
+        2172,
+        724
+      ],
+      "source_pose_bounds": [
+        [
+          10,
+          59,
+          322,
+          681
+        ],
+        [
+          371,
+          59,
+          680,
+          682
+        ],
+        [
+          736,
+          57,
+          1043,
+          682
+        ],
+        [
+          1091,
+          57,
+          1408,
+          682
+        ],
+        [
+          1454,
+          58,
+          1769,
+          682
+        ],
+        [
+          1817,
+          58,
+          2132,
+          682
+        ]
+      ],
+      "transform": {
+        "source_viewport": [
+          325,
+          633
+        ],
+        "source_shared_top": 53,
+        "source_shared_bottom": 686,
+        "scale": 0.6255924170616114,
+        "destination_viewport": [
+          203,
+          396
+        ],
+        "source_upscaled": false,
+        "registration": "shared row viewport; original vertical displacement preserved"
+      }
+    },
+    {
+      "row": 8,
+      "state": "review",
+      "frame_count": 6,
+      "source": "B/decoded/review.png",
+      "sha256": "b349ef058a72dcfc2977b32605afe7077b000611f60ebcd6e7d8b053ef834869",
+      "source_dimensions": [
+        2172,
+        724
+      ],
+      "source_pose_bounds": [
+        [
+          17,
+          69,
+          329,
+          674
+        ],
+        [
+          357,
+          78,
+          702,
+          674
+        ],
+        [
+          743,
+          69,
+          1065,
+          674
+        ],
+        [
+          1094,
+          72,
+          1420,
+          674
+        ],
+        [
+          1461,
+          77,
+          1772,
+          674
+        ],
+        [
+          1821,
+          69,
+          2140,
+          674
+        ]
+      ],
+      "transform": {
+        "source_viewport": [
+          353,
+          613
+        ],
+        "source_shared_top": 65,
+        "source_shared_bottom": 678,
+        "scale": 0.6460032626427407,
+        "destination_viewport": [
+          228,
+          396
+        ],
+        "source_upscaled": false,
+        "registration": "shared row viewport; original vertical displacement preserved"
+      }
+    },
+    {
+      "row": 9,
+      "state": "look-row-9",
+      "frame_count": 8,
+      "source": "B/decoded/look-row-9.png",
+      "sha256": "31c64e2ac1cd5267460067772ad9f0048ad1d1b013cf6e6df26b0b91cedfe531",
+      "source_dimensions": [
+        2172,
+        724
+      ],
+      "source_pose_bounds": [
+        [
+          25,
+          134,
+          285,
+          597
+        ],
+        [
+          299,
+          135,
+          545,
+          597
+        ],
+        [
+          557,
+          135,
+          804,
+          597
+        ],
+        [
+          823,
+          136,
+          1068,
+          597
+        ],
+        [
+          1089,
+          137,
+          1336,
+          597
+        ],
+        [
+          1362,
+          138,
+          1611,
+          597
+        ],
+        [
+          1632,
+          143,
+          1877,
+          597
+        ],
+        [
+          1900,
+          152,
+          2142,
+          597
+        ]
+      ],
+      "transform": {
+        "scale": 0.8231578947368421,
+        "source_upscaled": false,
+        "registration": "one common scale across all16 original poses; idle lower-body center and baseline",
+        "target_height": 391,
+        "target_lower_center_x": 198.26905276149336,
+        "target_bottom": 404
+      }
+    },
+    {
+      "row": 10,
+      "state": "look-row-10",
+      "frame_count": 8,
+      "source": "B/decoded/look-row-10.png",
+      "sha256": "24fab92e1b2471410eee8e9062242a11ef6d7463c9242a3156dc60655264afa1",
+      "source_dimensions": [
+        2172,
+        724
+      ],
+      "source_pose_bounds": [
+        [
+          18,
+          132,
+          280,
+          600
+        ],
+        [
+          294,
+          132,
+          549,
+          600
+        ],
+        [
+          560,
+          132,
+          815,
+          600
+        ],
+        [
+          829,
+          133,
+          1080,
+          600
+        ],
+        [
+          1094,
+          133,
+          1342,
+          600
+        ],
+        [
+          1355,
+          133,
+          1609,
+          601
+        ],
+        [
+          1622,
+          132,
+          1877,
+          600
+        ],
+        [
+          1892,
+          125,
+          2150,
+          600
+        ]
+      ],
+      "transform": {
+        "scale": 0.8231578947368421,
+        "source_upscaled": false,
+        "registration": "one common scale across all16 original poses; idle lower-body center and baseline",
+        "target_height": 391,
+        "target_lower_center_x": 198.26905276149336,
+        "target_bottom": 404
+      }
+    }
+  ]
+}

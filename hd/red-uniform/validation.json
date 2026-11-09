@@ -1,0 +1,843 @@
+{
+  "valid": true,
+  "format": "general-purpose-hd2x",
+  "codex_compatible": false,
+  "dimensions": [
+    3072,
+    4576
+  ],
+  "cell_size": [
+    384,
+    416
+  ],
+  "required_frames": 73,
+  "transparent_unused_cells": 15,
+  "png_webp_rgba_identical": true,
+  "source_pixels_upscaled": false,
+  "original_final_atlas_used_as_export_input": false,
+  "jump": {
+    "source_bottoms": [
+      669,
+      627,
+      574,
+      635,
+      669
+    ],
+    "hd_bottoms": [
+      404,
+      376,
+      341,
+      381,
+      404
+    ],
+    "lift_pixels": 63,
+    "first_last_bottom_difference": 0
+  },
+  "frames": [
+    {
+      "row": 0,
+      "column": 0,
+      "state": "idle",
+      "visible_bbox": [
+        87,
+        13,
+        296,
+        404
+      ]
+    },
+    {
+      "row": 0,
+      "column": 1,
+      "state": "idle",
+      "visible_bbox": [
+        86,
+        12,
+        298,
+        404
+      ]
+    },
+    {
+      "row": 0,
+      "column": 2,
+      "state": "idle",
+      "visible_bbox": [
+        87,
+        13,
+        297,
+        404
+      ]
+    },
+    {
+      "row": 0,
+      "column": 3,
+      "state": "idle",
+      "visible_bbox": [
+        86,
+        13,
+        297,
+        404
+      ]
+    },
+    {
+      "row": 0,
+      "column": 4,
+      "state": "idle",
+      "visible_bbox": [
+        87,
+        12,
+        297,
+        404
+      ]
+    },
+    {
+      "row": 0,
+      "column": 5,
+      "state": "idle",
+      "visible_bbox": [
+        87,
+        13,
+        297,
+        404
+      ]
+    },
+    {
+      "row": 1,
+      "column": 0,
+      "state": "running-right",
+      "visible_bbox": [
+        61,
+        23,
+        323,
+        400
+      ]
+    },
+    {
+      "row": 1,
+      "column": 1,
+      "state": "running-right",
+      "visible_bbox": [
+        63,
+        27,
+        321,
+        400
+      ]
+    },
+    {
+      "row": 1,
+      "column": 2,
+      "state": "running-right",
+      "visible_bbox": [
+        62,
+        26,
+        322,
+        400
+      ]
+    },
+    {
+      "row": 1,
+      "column": 3,
+      "state": "running-right",
+      "visible_bbox": [
+        66,
+        16,
+        317,
+        382
+      ]
+    },
+    {
+      "row": 1,
+      "column": 4,
+      "state": "running-right",
+      "visible_bbox": [
+        53,
+        26,
+        331,
+        400
+      ]
+    },
+    {
+      "row": 1,
+      "column": 5,
+      "state": "running-right",
+      "visible_bbox": [
+        62,
+        26,
+        321,
+        400
+      ]
+    },
+    {
+      "row": 1,
+      "column": 6,
+      "state": "running-right",
+      "visible_bbox": [
+        62,
+        26,
+        322,
+        400
+      ]
+    },
+    {
+      "row": 1,
+      "column": 7,
+      "state": "running-right",
+      "visible_bbox": [
+        66,
+        15,
+        317,
+        381
+      ]
+    },
+    {
+      "row": 2,
+      "column": 0,
+      "state": "running-left",
+      "visible_bbox": [
+        64,
+        17,
+        319,
+        389
+      ]
+    },
+    {
+      "row": 2,
+      "column": 1,
+      "state": "running-left",
+      "visible_bbox": [
+        63,
+        18,
+        320,
+        398
+      ]
+    },
+    {
+      "row": 2,
+      "column": 2,
+      "state": "running-left",
+      "visible_bbox": [
+        66,
+        18,
+        316,
+        399
+      ]
+    },
+    {
+      "row": 2,
+      "column": 3,
+      "state": "running-left",
+      "visible_bbox": [
+        62,
+        14,
+        321,
+        380
+      ]
+    },
+    {
+      "row": 2,
+      "column": 4,
+      "state": "running-left",
+      "visible_bbox": [
+        61,
+        17,
+        322,
+        390
+      ]
+    },
+    {
+      "row": 2,
+      "column": 5,
+      "state": "running-left",
+      "visible_bbox": [
+        64,
+        18,
+        319,
+        398
+      ]
+    },
+    {
+      "row": 2,
+      "column": 6,
+      "state": "running-left",
+      "visible_bbox": [
+        67,
+        19,
+        315,
+        402
+      ]
+    },
+    {
+      "row": 2,
+      "column": 7,
+      "state": "running-left",
+      "visible_bbox": [
+        64,
+        14,
+        319,
+        381
+      ]
+    },
+    {
+      "row": 3,
+      "column": 0,
+      "state": "waving",
+      "visible_bbox": [
+        85,
+        12,
+        298,
+        404
+      ]
+    },
+    {
+      "row": 3,
+      "column": 1,
+      "state": "waving",
+      "visible_bbox": [
+        84,
+        12,
+        299,
+        404
+      ]
+    },
+    {
+      "row": 3,
+      "column": 2,
+      "state": "waving",
+      "visible_bbox": [
+        82,
+        12,
+        301,
+        404
+      ]
+    },
+    {
+      "row": 3,
+      "column": 3,
+      "state": "waving",
+      "visible_bbox": [
+        86,
+        12,
+        297,
+        404
+      ]
+    },
+    {
+      "row": 4,
+      "column": 0,
+      "state": "jumping",
+      "visible_bbox": [
+        69,
+        93,
+        314,
+        404
+      ]
+    },
+    {
+      "row": 4,
+      "column": 1,
+      "state": "jumping",
+      "visible_bbox": [
+        61,
+        48,
+        321,
+        376
+      ]
+    },
+    {
+      "row": 4,
+      "column": 2,
+      "state": "jumping",
+      "visible_bbox": [
+        59,
+        12,
+        324,
+        341
+      ]
+    },
+    {
+      "row": 4,
+      "column": 3,
+      "state": "jumping",
+      "visible_bbox": [
+        56,
+        53,
+        327,
+        381
+      ]
+    },
+    {
+      "row": 4,
+      "column": 4,
+      "state": "jumping",
+      "visible_bbox": [
+        64,
+        95,
+        318,
+        404
+      ]
+    },
+    {
+      "row": 5,
+      "column": 0,
+      "state": "failed",
+      "visible_bbox": [
+        89,
+        13,
+        295,
+        403
+      ]
+    },
+    {
+      "row": 5,
+      "column": 1,
+      "state": "failed",
+      "visible_bbox": [
+        88,
+        15,
+        295,
+        403
+      ]
+    },
+    {
+      "row": 5,
+      "column": 2,
+      "state": "failed",
+      "visible_bbox": [
+        82,
+        22,
+        301,
+        403
+      ]
+    },
+    {
+      "row": 5,
+      "column": 3,
+      "state": "failed",
+      "visible_bbox": [
+        80,
+        35,
+        303,
+        403
+      ]
+    },
+    {
+      "row": 5,
+      "column": 4,
+      "state": "failed",
+      "visible_bbox": [
+        79,
+        25,
+        305,
+        403
+      ]
+    },
+    {
+      "row": 5,
+      "column": 5,
+      "state": "failed",
+      "visible_bbox": [
+        89,
+        15,
+        294,
+        403
+      ]
+    },
+    {
+      "row": 5,
+      "column": 6,
+      "state": "failed",
+      "visible_bbox": [
+        91,
+        13,
+        293,
+        403
+      ]
+    },
+    {
+      "row": 5,
+      "column": 7,
+      "state": "failed",
+      "visible_bbox": [
+        89,
+        13,
+        294,
+        403
+      ]
+    },
+    {
+      "row": 6,
+      "column": 0,
+      "state": "waiting",
+      "visible_bbox": [
+        94,
+        13,
+        289,
+        404
+      ]
+    },
+    {
+      "row": 6,
+      "column": 1,
+      "state": "waiting",
+      "visible_bbox": [
+        89,
+        13,
+        294,
+        404
+      ]
+    },
+    {
+      "row": 6,
+      "column": 2,
+      "state": "waiting",
+      "visible_bbox": [
+        90,
+        12,
+        293,
+        404
+      ]
+    },
+    {
+      "row": 6,
+      "column": 3,
+      "state": "waiting",
+      "visible_bbox": [
+        93,
+        13,
+        290,
+        404
+      ]
+    },
+    {
+      "row": 6,
+      "column": 4,
+      "state": "waiting",
+      "visible_bbox": [
+        93,
+        13,
+        289,
+        404
+      ]
+    },
+    {
+      "row": 6,
+      "column": 5,
+      "state": "waiting",
+      "visible_bbox": [
+        93,
+        13,
+        289,
+        404
+      ]
+    },
+    {
+      "row": 7,
+      "column": 0,
+      "state": "running",
+      "visible_bbox": [
+        93,
+        13,
+        289,
+        403
+      ]
+    },
+    {
+      "row": 7,
+      "column": 1,
+      "state": "running",
+      "visible_bbox": [
+        95,
+        13,
+        288,
+        404
+      ]
+    },
+    {
+      "row": 7,
+      "column": 2,
+      "state": "running",
+      "visible_bbox": [
+        95,
+        12,
+        288,
+        404
+      ]
+    },
+    {
+      "row": 7,
+      "column": 3,
+      "state": "running",
+      "visible_bbox": [
+        92,
+        12,
+        291,
+        404
+      ]
+    },
+    {
+      "row": 7,
+      "column": 4,
+      "state": "running",
+      "visible_bbox": [
+        93,
+        13,
+        290,
+        404
+      ]
+    },
+    {
+      "row": 7,
+      "column": 5,
+      "state": "running",
+      "visible_bbox": [
+        93,
+        13,
+        290,
+        404
+      ]
+    },
+    {
+      "row": 8,
+      "column": 0,
+      "state": "review",
+      "visible_bbox": [
+        90,
+        12,
+        293,
+        404
+      ]
+    },
+    {
+      "row": 8,
+      "column": 1,
+      "state": "review",
+      "visible_bbox": [
+        80,
+        18,
+        304,
+        404
+      ]
+    },
+    {
+      "row": 8,
+      "column": 2,
+      "state": "review",
+      "visible_bbox": [
+        87,
+        12,
+        296,
+        404
+      ]
+    },
+    {
+      "row": 8,
+      "column": 3,
+      "state": "review",
+      "visible_bbox": [
+        86,
+        14,
+        297,
+        404
+      ]
+    },
+    {
+      "row": 8,
+      "column": 4,
+      "state": "review",
+      "visible_bbox": [
+        91,
+        17,
+        293,
+        404
+      ]
+    },
+    {
+      "row": 8,
+      "column": 5,
+      "state": "review",
+      "visible_bbox": [
+        89,
+        12,
+        295,
+        404
+      ]
+    },
+    {
+      "row": 9,
+      "column": 0,
+      "state": "look-row-9",
+      "visible_bbox": [
+        86,
+        23,
+        300,
+        404
+      ]
+    },
+    {
+      "row": 9,
+      "column": 1,
+      "state": "look-row-9",
+      "visible_bbox": [
+        88,
+        24,
+        290,
+        404
+      ]
+    },
+    {
+      "row": 9,
+      "column": 2,
+      "state": "look-row-9",
+      "visible_bbox": [
+        81,
+        24,
+        284,
+        404
+      ]
+    },
+    {
+      "row": 9,
+      "column": 3,
+      "state": "look-row-9",
+      "visible_bbox": [
+        78,
+        25,
+        280,
+        404
+      ]
+    },
+    {
+      "row": 9,
+      "column": 4,
+      "state": "look-row-9",
+      "visible_bbox": [
+        75,
+        25,
+        278,
+        404
+      ]
+    },
+    {
+      "row": 9,
+      "column": 5,
+      "state": "look-row-9",
+      "visible_bbox": [
+        75,
+        26,
+        280,
+        404
+      ]
+    },
+    {
+      "row": 9,
+      "column": 6,
+      "state": "look-row-9",
+      "visible_bbox": [
+        79,
+        30,
+        281,
+        404
+      ]
+    },
+    {
+      "row": 9,
+      "column": 7,
+      "state": "look-row-9",
+      "visible_bbox": [
+        82,
+        38,
+        281,
+        404
+      ]
+    },
+    {
+      "row": 10,
+      "column": 0,
+      "state": "look-row-10",
+      "visible_bbox": [
+        86,
+        19,
+        302,
+        404
+      ]
+    },
+    {
+      "row": 10,
+      "column": 1,
+      "state": "look-row-10",
+      "visible_bbox": [
+        91,
+        19,
+        301,
+        404
+      ]
+    },
+    {
+      "row": 10,
+      "column": 2,
+      "state": "look-row-10",
+      "visible_bbox": [
+        91,
+        19,
+        301,
+        404
+      ]
+    },
+    {
+      "row": 10,
+      "column": 3,
+      "state": "look-row-10",
+      "visible_bbox": [
+        92,
+        20,
+        299,
+        404
+      ]
+    },
+    {
+      "row": 10,
+      "column": 4,
+      "state": "look-row-10",
+      "visible_bbox": [
+        94,
+        20,
+        298,
+        404
+      ]
+    },
+    {
+      "row": 10,
+      "column": 5,
+      "state": "look-row-10",
+      "visible_bbox": [
+        91,
+        19,
+        300,
+        404
+      ]
+    },
+    {
+      "row": 10,
+      "column": 6,
+      "state": "look-row-10",
+      "visible_bbox": [
+        90,
+        19,
+        300,
+        404
+      ]
+    },
+    {
+      "row": 10,
+      "column": 7,
+      "state": "look-row-10",
+      "visible_bbox": [
+        89,
+        13,
+        301,
+        404
+      ]
+    }
+  ],
+  "errors": [],
+  "scope": "Structural, encoding, source-scale and jump-registration checks; inspect previews for visual quality."
+}

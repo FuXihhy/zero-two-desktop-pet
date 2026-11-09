@@ -1,49 +1,15 @@
-# 02 · 白礼服桌宠
+# 02 · 白礼服版 — Codex
 
-A **Zero Two** sprite pack in a flowing white wedding-style dress, with nine animation states and sixteen look directions.
+白礼服角色的 **Codex 兼容素材**，每帧 192 × 208 px，整张透明图集 1536 × 2288 px，包含九组动作及十六方向视线，共 73 个有效帧。图集 PNG / WebP 保留原先发布的字节。
 
-[Releases](https://github.com/FuXihhy/zero-two-desktop-pet/releases)
+[下载 Codex 包](https://github.com/FuXihhy/zero-two-desktop-pet/releases/download/v1.2.0/02-white-dress-codex-v1.2.0.zip) · [HD 2× 高清版](https://github.com/FuXihhy/zero-two-desktop-pet/tree/main/hd/white-dress) · [完整说明](https://github.com/FuXihhy/zero-two-desktop-pet)
 
 ![Animation preview](preview.gif)
 
-## 使用 / Usage
+解压后可打开 `preview.gif` 和 `look-preview.gif` 查看动作。实际使用透明 `spritesheet.png` 或 `spritesheet.webp`；`pet.json` 是 Codex 桌宠元数据，`manifest.json` 说明每行动作、有效帧数和图集布局。GIF 仅作预览，透明边缘以 PNG / WebP 为准。
 
-下载 Release 中的 `02-white-dress-v1.0.0.zip`，解压后可直接打开 `preview.gif` 和 `look-preview.gif` 查看动画。透明 PNG 和 WebP 图集、网格信息及逐行动作定义都在包内，可供支持图集的桌宠或网页组件使用。这是素材包，不包含独立桌面应用或安装器。
+行、列从零开始，第 `r` 行、第 `c` 列裁切 `(192*c, 208*r, 192, 208)`。只使用 manifest 中的有效帧，透明占位格不应播放。视线方向位于第 9–10 行，从正上方 0° 开始顺时针每次增加 22.5°。
 
-Download and extract the release ZIP. Open the GIF previews in a browser or image viewer; use `spritesheet.png` or `spritesheet.webp` with a sprite-sheet renderer. Read `manifest.json` for the grid and animation rows. This package distributes the artwork and animation assets; it does not contain a standalone desktop application or installer.
+This is the **192 × 208 Codex edition** of the white-dress Zero Two sprite pack. It includes transparent PNG / WebP atlases, animation previews, metadata, the original design reference, prompts and file checksums. Use `manifest.json` to crop frames; the consuming application chooses playback timing. The separate HD edition uses 384 × 416 frames and is not accepted by the current Codex loader. Neither edition includes a desktop application or installer.
 
-## Files
-
-- `spritesheet.png`: transparent 1536 × 2288 PNG atlas.
-- `spritesheet.webp`: WebP version of the same atlas.
-- `manifest.json`: 8 columns × 11 rows; each cell is 192 × 208 pixels.
-- `preview.gif`: animation preview.
-- `look-preview.gif`: sixteen-direction look preview.
-- `reference.png`: original full-body design reference, with its green generation background.
-- `PROMPTS.md`: reference and animation-row generation prompts.
-- `SHA256SUMS.txt`: SHA-256 checksums for the included files.
-
-## Animation layout
-
-Rows and columns are zero-indexed. For column `c` and row `r`, crop the rectangle `(192*c, 208*r, 192, 208)` from the atlas. Use only the active frame count for that row; unused cells are padding.
-
-| Row | State | Active frames |
-| --- | --- | --- |
-| 0 | Idle | 6 |
-| 1 | Running right | 8 |
-| 2 | Running left | 8 |
-| 3 | Waving | 4 |
-| 4 | Jumping | 5 |
-| 5 | Failed / blocked | 8 |
-| 6 | Waiting | 6 |
-| 7 | Working | 6 |
-| 8 | Review / complete | 6 |
-| 9–10 | Look directions | 16 total |
-
-Look directions start at up (0°) and proceed clockwise in 22.5° steps, first across row 9, then across row 10. Animation speed is chosen by the consuming application.
-
-![Look direction preview](look-preview.gif)
-
-## About the artwork
-
-This is an unofficial fan-art project featuring Zero Two from *DARLING in the FRANXX*. The supplied AI-generated artwork and final animation atlas are preserved without redrawing. This white-dress variant keeps the source design's elegant anime proportions.
+The artwork is unofficial fan art of Zero Two from *DARLING in the FRANXX*. The original reference retains its green generation background. This release preserves the existing design, proportions and poses.

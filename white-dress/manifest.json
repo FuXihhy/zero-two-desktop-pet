@@ -1,7 +1,7 @@
 {
   "name": "02 D White Dress",
   "description": "Zero Two in a flowing white dress, with a softer and more modest silhouette.",
-  "version": "1.0.0",
+  "version": "1.2.0",
   "sprite_version_number": 2,
   "spritesheet": "spritesheet.png",
   "webp": "spritesheet.webp",
@@ -106,5 +106,8 @@
     "zero": "up",
     "positive": "clockwise",
     "step": 22.5
-  }
+  },
+  "edition": "codex",
+  "codex_compatible": true,
+  "artwork_revision": "original-published-atlas"
 }
